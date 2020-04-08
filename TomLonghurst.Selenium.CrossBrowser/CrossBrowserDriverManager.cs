@@ -146,6 +146,8 @@ namespace TomLonghurst.Selenium.CrossBrowser
 
         private async Task LogScreenshots(string browserName, BrowserResult result)
         {
+            var imageFormat = ScreenshotSettings?.ScreenshotImageFormat ?? ScreenshotImageFormat.Png;
+            
             foreach (var screenshot in result.Screenshots)
             {
                 Directory.CreateDirectory(Path.Combine(Directory.GetCurrentDirectory(),
@@ -153,9 +155,9 @@ namespace TomLonghurst.Selenium.CrossBrowser
                 
                 var savePath = Path.Combine(Directory.GetCurrentDirectory(),
                     "CrossBrowserScreenshots",
-                    $"{browserName}-{Guid.NewGuid():N}.png");
+                    $"{browserName}-{Guid.NewGuid():N}.{imageFormat.ToString().ToLowerInvariant()}");
 
-                screenshot.SaveAsFile(savePath, ScreenshotImageFormat.Png);
+                screenshot.SaveAsFile(savePath, imageFormat);
                 
                 await Logger.WriteLineAsync($"\nScreenshot for browser {browserName} at path: {savePath}");
             }

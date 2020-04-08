@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using OpenQA.Selenium;
 
 namespace TomLonghurst.Selenium.CrossBrowser
 {
@@ -6,5 +7,6 @@ namespace TomLonghurst.Selenium.CrossBrowser
     {
         public bool TakeScreenshots { get; set; } = true;
         public IEnumerable<Result> ResultsToTakeScreenshotsOf { get; set; } = new[] { Result.Fail };
+        public ScreenshotImageFormat ScreenshotImageFormat { get; set; }
     }
 }
