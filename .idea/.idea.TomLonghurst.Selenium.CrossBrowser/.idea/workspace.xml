@@ -25,20 +25,26 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d8258b3-6543-434d-9e00-d2ae3a4429f3" name="Default Changelist" comment="" />
+    <list default="true" id="7d8258b3-6543-434d-9e00-d2ae3a4429f3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.Selenium.CrossBrowser/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.Selenium.CrossBrowser/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.Selenium.CrossBrowser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.Selenium.CrossBrowser/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/Result.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser.Tests/Tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/DB9CEB1E-F6C3-448D-8D4A-C9F8963779FB/168/Future.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DB9CEB1E-F6C3-448D-8D4A-C9F8963779FB/de/02078634/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/BrowserResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser.Tests/Tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DB9CEB1E-F6C3-448D-8D4A-C9F8963779FB/de/02078634/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFA06CC1-3021-4FAA-A49F-A6D0D4259ABD/10/d2ba08c3/ChromeDriver.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/Result.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -63,6 +69,7 @@
   <component name="PropertiesComponent">
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -85,13 +92,14 @@
       <option name="presentableId" value="Default" />
       <updated>1586348908081</updated>
       <workItem from="1586348911620" duration="10584000" />
+      <workItem from="1586360100854" duration="297000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="WindowStateProjectService">
     <state width="904" height="646" key="DebuggerActiveHint" timestamp="1586355309663">
@@ -190,32 +198,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs</url>
-          <line>179</line>
-          <properties documentPath="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs" initialLine="173">
-            <startOffsets>
-              <option value="5881" />
-            </startOffsets>
-            <endOffsets>
-              <option value="5906" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs</url>
-          <line>174</line>
-          <properties documentPath="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs" initialLine="168">
-            <startOffsets>
-              <option value="5759" />
-            </startOffsets>
-            <endOffsets>
-              <option value="5785" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs</url>
           <line>109</line>
