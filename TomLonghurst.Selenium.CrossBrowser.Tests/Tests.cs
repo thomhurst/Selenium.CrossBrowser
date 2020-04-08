@@ -57,7 +57,7 @@ namespace TomLonghurst.Selenium.CrossBrowser.Tests
         )
         {
             _crossBrowserDriverManager.RunInParallel = runInParallel;
-            _crossBrowserDriverManager.TakeScreenshots = takeScreenshots;
+            _crossBrowserDriverManager.ScreenshotSettings = new ScreenshotSettings {TakeScreenshots = takeScreenshots};
             
             _crossBrowserDriverManager.Execute(TestBodySuccessful);
         }
@@ -69,11 +69,11 @@ namespace TomLonghurst.Selenium.CrossBrowser.Tests
             )
         {
             _crossBrowserDriverManager.RunInParallel = runInParallel;
-            _crossBrowserDriverManager.TakeScreenshots = takeScreenshots;
+            _crossBrowserDriverManager.ScreenshotSettings = new ScreenshotSettings {TakeScreenshots = takeScreenshots};
 
             Assert.Throws<Exception>(() => _crossBrowserDriverManager.Execute(TestBodyFailChrome));
         }
-        
+
         [Test]
         public void FailAll(
             [Values(true, false)] bool runInParallel,
@@ -81,7 +81,7 @@ namespace TomLonghurst.Selenium.CrossBrowser.Tests
             )
         {
             _crossBrowserDriverManager.RunInParallel = runInParallel;
-            _crossBrowserDriverManager.TakeScreenshots = takeScreenshots;
+            _crossBrowserDriverManager.ScreenshotSettings = new ScreenshotSettings {TakeScreenshots = takeScreenshots};
 
             Assert.Throws<AggregateException>(() => _crossBrowserDriverManager.Execute(TestBodyFail));
         }

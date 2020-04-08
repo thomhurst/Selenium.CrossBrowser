@@ -15,6 +15,7 @@
           </e>
         </e>
         <e p="Result.cs" t="Include" />
+        <e p="ScreenshotSettings.cs" t="Include" />
         <e p="TomLonghurst.Selenium.CrossBrowser.csproj" t="IncludeRecursive" />
       </e>
       <e p="TomLonghurst.Selenium.CrossBrowser.sln" t="IncludeFlat" />

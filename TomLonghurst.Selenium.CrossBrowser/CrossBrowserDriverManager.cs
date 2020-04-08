@@ -21,7 +21,7 @@ namespace TomLonghurst.Selenium.CrossBrowser
     {
         private readonly List<Func<IWebDriver>> _webDriverConstructors = new List<Func<IWebDriver>>();
         public TextWriter Logger { get; set; } = Console.Out;
-        public bool TakeScreenshots { get; set; }
+        public ScreenshotSettings ScreenshotSettings { get; set; }
         public bool RunInParallel { get; set; }
         
         public CrossBrowserDriverManager(IEnumerable<Func<IWebDriver>> webdriverConstructors)
@@ -100,7 +100,8 @@ namespace TomLonghurst.Selenium.CrossBrowser
 
         private void CaptureScreenshots(IWebDriver webDriver, ref BrowserResult result)
         {
-            if (!TakeScreenshots)
+            if (ScreenshotSettings?.TakeScreenshots != true || 
+                !(ScreenshotSettings.ResultsToTakeScreenshotsOf ?? Enumerable.Empty<Result>()).Contains(result.Result))
             {
                 return;
             }
@@ -130,7 +131,7 @@ namespace TomLonghurst.Selenium.CrossBrowser
             {
                 var browserName = GetBrowserName(result.WebDriver);
                 
-                await Logger.WriteLineAsync($"{result.Result} on browser: {browserName}");
+                await Logger.WriteLineAsync($"\n{result.Result} on browser: {browserName}");
                 
                 if (result.Result == Result.Fail)
                 {
@@ -138,7 +139,6 @@ namespace TomLonghurst.Selenium.CrossBrowser
                 }
 
                 await LogScreenshots(browserName, result);
-                await Logger.WriteLineAsync();
             }
 
             ThrowIfAnyExceptions(results);
@@ -157,7 +157,7 @@ namespace TomLonghurst.Selenium.CrossBrowser
 
                 screenshot.SaveAsFile(savePath, ScreenshotImageFormat.Png);
                 
-                await Logger.WriteLineAsync($"Screenshot for browser {browserName} at path: {savePath}");
+                await Logger.WriteLineAsync($"\nScreenshot for browser {browserName} at path: {savePath}");
             }
         }
 
