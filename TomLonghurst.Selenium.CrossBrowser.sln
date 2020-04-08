@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomLonghurst.Selenium.CrossBrowser", "TomLonghurst.Selenium.CrossBrowser\TomLonghurst.Selenium.CrossBrowser.csproj", "{6F06E1C7-8A08-4E95-9184-2C577E4CB240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomLonghurst.Selenium.CrossBrowser.Tests", "TomLonghurst.Selenium.CrossBrowser.Tests\TomLonghurst.Selenium.CrossBrowser.Tests.csproj", "{EF2E31F6-2654-4F45-9000-A25C97F55D8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F06E1C7-8A08-4E95-9184-2C577E4CB240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F06E1C7-8A08-4E95-9184-2C577E4CB240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F06E1C7-8A08-4E95-9184-2C577E4CB240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F06E1C7-8A08-4E95-9184-2C577E4CB240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF2E31F6-2654-4F45-9000-A25C97F55D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2E31F6-2654-4F45-9000-A25C97F55D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2E31F6-2654-4F45-9000-A25C97F55D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2E31F6-2654-4F45-9000-A25C97F55D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

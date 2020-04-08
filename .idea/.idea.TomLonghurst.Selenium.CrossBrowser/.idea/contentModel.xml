@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\thomh\.nuget\packages\microsoft.net.test.sdk\16.4.0\build\netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="C:\Users\thomh\.nuget\packages\microsoft.testplatform.testhost\16.4.0\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
+    <e p="C:\Users\thomh\.nuget\packages\microsoft.testplatform.testhost\16.4.0\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
+    <e p="C:\Users\thomh\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\nunit.engine.api.dll" t="Include" />
+    <e p="C:\Users\thomh\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\nunit.engine.dll" t="Include" />
+    <e p="C:\Users\thomh\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\NUnit3.TestAdapter.dll" t="Include" />
+    <e p="C:\Users\thomh\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="C:\Users\thomh\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\thomh\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_TomLonghurst.Selenium.CrossBrowser.-1568890673.00" t="ExcludeRecursive" />
+    <e p="C:\Users\thomh\RiderProjects\TomLonghurst.Selenium.CrossBrowser" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TomLonghurst.Selenium.CrossBrowser" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BrowserResult.cs" t="Include" />
+        <e p="CrossBrowserDriverManager.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="TomLonghurst.Selenium.CrossBrowser.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Result.cs" t="Include" />
+        <e p="TomLonghurst.Selenium.CrossBrowser.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TomLonghurst.Selenium.CrossBrowser.sln" t="IncludeFlat" />
+      <e p="TomLonghurst.Selenium.CrossBrowser.Tests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="chromedriver.exe" t="Include" />
+        <e p="geckodriver.exe" t="Include" />
+        <e p="MicrosoftWebDriver.exe" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="TomLonghurst.Selenium.CrossBrowser.Tests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Tests.cs" t="Include" />
+        <e p="TomLonghurst.Selenium.CrossBrowser.Tests.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

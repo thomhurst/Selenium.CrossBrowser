@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="ENABLE_SUITABLE_CONFIGURATION_CACHING" value="true" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <option name="showStatusBarWidget" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7d8258b3-6543-434d-9e00-d2ae3a4429f3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/Result.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser.Tests/Tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/DB9CEB1E-F6C3-448D-8D4A-C9F8963779FB/168/Future.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DB9CEB1E-F6C3-448D-8D4A-C9F8963779FB/de/02078634/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/BrowserResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFA06CC1-3021-4FAA-A49F-A6D0D4259ABD/10/d2ba08c3/ChromeDriver.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/DriverException.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/Result.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/Class1.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/BrowserResult.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriver.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser.Tests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser.Tests/Tests.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aG55cxBfxnza2rfHdujEBBKIuE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Functions" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d8258b3-6543-434d-9e00-d2ae3a4429f3" name="Default Changelist" comment="" />
+      <created>1586348908081</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586348908081</updated>
+      <workItem from="1586348911620" duration="10584000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state width="904" height="646" key="DebuggerActiveHint" timestamp="1586355309663">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="904" height="646" key="DebuggerActiveHint/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586355309663" />
+    <state width="1877" height="315" key="GridCell.Tab.0.bottom" timestamp="1586359308294">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.0.bottom/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586359308294" />
+    <state width="1877" height="315" key="GridCell.Tab.0.center" timestamp="1586359308294">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.0.center/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586359308294" />
+    <state width="1877" height="315" key="GridCell.Tab.0.left" timestamp="1586359308294">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.0.left/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586359308294" />
+    <state width="1877" height="315" key="GridCell.Tab.0.right" timestamp="1586359308294">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.0.right/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586359308294" />
+    <state width="1877" height="315" key="GridCell.Tab.1.bottom" timestamp="1586359308294">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.1.bottom/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586359308294" />
+    <state width="1877" height="315" key="GridCell.Tab.1.center" timestamp="1586359308294">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.1.center/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586359308294" />
+    <state width="1877" height="315" key="GridCell.Tab.1.left" timestamp="1586359308294">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.1.left/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586359308294" />
+    <state width="1877" height="315" key="GridCell.Tab.1.right" timestamp="1586359308294">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.1.right/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586359308294" />
+    <state width="1877" height="315" key="GridCell.Tab.2.bottom" timestamp="1586359308294">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.2.bottom/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586359308294" />
+    <state width="1877" height="315" key="GridCell.Tab.2.center" timestamp="1586359308294">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.2.center/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586359308294" />
+    <state width="1877" height="315" key="GridCell.Tab.2.left" timestamp="1586359308294">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.2.left/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586359308294" />
+    <state width="1877" height="315" key="GridCell.Tab.2.right" timestamp="1586359308294">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.2.right/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586359308294" />
+    <state width="1877" height="315" key="GridCell.Tab.3.bottom" timestamp="1586359308294">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.3.bottom/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586359308294" />
+    <state width="1877" height="315" key="GridCell.Tab.3.center" timestamp="1586359308294">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.3.center/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586359308294" />
+    <state width="1877" height="315" key="GridCell.Tab.3.left" timestamp="1586359308294">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.3.left/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586359308294" />
+    <state width="1877" height="315" key="GridCell.Tab.3.right" timestamp="1586359308294">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.3.right/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586359308294" />
+    <state width="1877" height="315" key="GridCell.Tab.4.bottom" timestamp="1586359308294">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.4.bottom/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586359308294" />
+    <state width="1877" height="315" key="GridCell.Tab.4.center" timestamp="1586359308294">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.4.center/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586359308294" />
+    <state width="1877" height="315" key="GridCell.Tab.4.left" timestamp="1586359308294">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.4.left/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586359308294" />
+    <state width="1877" height="315" key="GridCell.Tab.4.right" timestamp="1586359308294">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.4.right/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586359308294" />
+    <state x="4392" y="251" key="Rider.ProjectTemplateDialog.Size" timestamp="1586353501059">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state x="4392" y="251" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586353501059" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1586355309661">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586355309661" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs</url>
+          <line>179</line>
+          <properties documentPath="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs" initialLine="173">
+            <startOffsets>
+              <option value="5881" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5906" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs</url>
+          <line>174</line>
+          <properties documentPath="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs" initialLine="168">
+            <startOffsets>
+              <option value="5759" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5785" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs</url>
+          <line>109</line>
+          <properties documentPath="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs" initialLine="109">
+            <startOffsets>
+              <option value="3329" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3371" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
