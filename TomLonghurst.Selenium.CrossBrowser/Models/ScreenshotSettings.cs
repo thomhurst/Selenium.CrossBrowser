@@ -1,7 +1,8 @@
 using System.Collections.Generic;
 using OpenQA.Selenium;
+using TomLonghurst.Selenium.CrossBrowser.Enums;
 
-namespace TomLonghurst.Selenium.CrossBrowser
+namespace TomLonghurst.Selenium.CrossBrowser.Models
 {
     public class ScreenshotSettings
     {

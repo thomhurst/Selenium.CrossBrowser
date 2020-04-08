@@ -25,12 +25,8 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d8258b3-6543-434d-9e00-d2ae3a4429f3" name="Default Changelist" comment="NuGet build package script">
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/ScreenshotSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.Selenium.CrossBrowser/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.Selenium.CrossBrowser/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="7d8258b3-6543-434d-9e00-d2ae3a4429f3" name="Default Changelist" comment="ScreenshotImageFormat">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.Selenium.CrossBrowser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.Selenium.CrossBrowser/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser.Tests/Tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser.Tests/Tests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +55,8 @@
         <option value="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/BrowserResult.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriver.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser.Tests/UnitTest1.cs" />
-        <option value="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/ScreenshotSettings.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser.Tests/Tests.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/ScreenshotSettings.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs" />
       </list>
     </option>
@@ -97,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586348908081</updated>
       <workItem from="1586348911620" duration="10584000" />
-      <workItem from="1586360100854" duration="2358000" />
+      <workItem from="1586360100854" duration="4044000" />
     </task>
     <task id="LOCAL-00001" summary="NuGet build package script">
       <created>1586360416610</created>
@@ -106,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586360416610</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ScreenshotSettings">
+      <created>1586363038586</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586363038586</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ScreenshotImageFormat">
+      <created>1586363258425</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586363258425</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +137,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="NuGet build package script" />
-    <option name="LAST_COMMIT_MESSAGE" value="NuGet build package script" />
+    <MESSAGE value="ScreenshotSettings" />
+    <MESSAGE value="ScreenshotImageFormat" />
+    <option name="LAST_COMMIT_MESSAGE" value="ScreenshotImageFormat" />
   </component>
   <component name="WindowStateProjectService">
     <state width="904" height="646" key="DebuggerActiveHint" timestamp="1586355309663">
@@ -218,10 +230,10 @@
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
     <state x="4392" y="251" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586353501059" />
-    <state x="4392" y="248" key="Vcs.Push.Dialog.v2" timestamp="1586363039793">
+    <state x="4392" y="248" key="Vcs.Push.Dialog.v2" timestamp="1586363259517">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="4392" y="248" key="Vcs.Push.Dialog.v2/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586363039793" />
+    <state x="4392" y="248" key="Vcs.Push.Dialog.v2/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586363259517" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1586355309661">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>

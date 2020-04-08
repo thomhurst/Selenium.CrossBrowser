@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using OpenQA.Selenium;
+using TomLonghurst.Selenium.CrossBrowser.Enums;
 
 namespace TomLonghurst.Selenium.CrossBrowser
 {

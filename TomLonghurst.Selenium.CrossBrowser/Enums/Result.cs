@@ -1,4 +1,4 @@
-namespace TomLonghurst.Selenium.CrossBrowser
+namespace TomLonghurst.Selenium.CrossBrowser.Enums
 {
     public enum Result
     {

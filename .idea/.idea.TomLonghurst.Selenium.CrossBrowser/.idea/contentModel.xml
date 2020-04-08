@@ -7,6 +7,12 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="BrowserResult.cs" t="Include" />
         <e p="CrossBrowserDriverManager.cs" t="Include" />
+        <e p="Enums" t="Include">
+          <e p="Result.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="ScreenshotSettings.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netstandard2.0" t="Include">
@@ -14,8 +20,6 @@
             </e>
           </e>
         </e>
-        <e p="Result.cs" t="Include" />
-        <e p="ScreenshotSettings.cs" t="Include" />
         <e p="TomLonghurst.Selenium.CrossBrowser.csproj" t="IncludeRecursive" />
       </e>
       <e p="TomLonghurst.Selenium.CrossBrowser.sln" t="IncludeFlat" />

@@ -14,6 +14,8 @@ using OpenQA.Selenium.Opera;
 using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Safari;
 using OpenQA.Selenium.Support.Extensions;
+using TomLonghurst.Selenium.CrossBrowser.Enums;
+using TomLonghurst.Selenium.CrossBrowser.Models;
 
 namespace TomLonghurst.Selenium.CrossBrowser
 {
