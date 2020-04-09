@@ -48,6 +48,11 @@ namespace TomLonghurst.Selenium.CrossBrowser
         {
             AddWebDrivers(webdriverConstructors);
         }
+        
+        public CrossBrowserDriverManager(params Func<IWebDriver>[] webdriverConstructors)
+        {
+            AddWebDrivers(webdriverConstructors);
+        }
 
         public void AddWebDrivers(IEnumerable<Func<IWebDriver>> webdriverConstructors)
         {

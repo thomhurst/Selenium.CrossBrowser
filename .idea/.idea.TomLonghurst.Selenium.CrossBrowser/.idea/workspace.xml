@@ -25,7 +25,7 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d8258b3-6543-434d-9e00-d2ae3a4429f3" name="Default Changelist" comment="Check for null webdriver">
+    <list default="true" id="7d8258b3-6543-434d-9e00-d2ae3a4429f3" name="Default Changelist" comment="Tweaks">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.Selenium.CrossBrowser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.Selenium.CrossBrowser/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs" afterDir="false" />
     </list>
@@ -99,7 +99,7 @@
       <updated>1586348908081</updated>
       <workItem from="1586348911620" duration="10584000" />
       <workItem from="1586360100854" duration="5452000" />
-      <workItem from="1586424211090" duration="2635000" />
+      <workItem from="1586424211090" duration="3198000" />
     </task>
     <task id="LOCAL-00001" summary="NuGet build package script">
       <created>1586360416610</created>
@@ -143,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586426837948</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Tweaks">
+      <created>1586428817885</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586428817885</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +178,8 @@
     <MESSAGE value="Tidy structure" />
     <MESSAGE value="Different method of accessing output directory" />
     <MESSAGE value="Check for null webdriver" />
-    <option name="LAST_COMMIT_MESSAGE" value="Check for null webdriver" />
+    <MESSAGE value="Tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tweaks" />
   </component>
   <component name="WindowStateProjectService">
     <state width="904" height="646" key="DebuggerActiveHint" timestamp="1586355309663">
@@ -262,10 +270,10 @@
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
     <state x="4392" y="251" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586353501059" />
-    <state x="4392" y="248" key="Vcs.Push.Dialog.v2" timestamp="1586426839126">
+    <state x="4392" y="248" key="Vcs.Push.Dialog.v2" timestamp="1586428818856">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="4392" y="248" key="Vcs.Push.Dialog.v2/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586426839126" />
+    <state x="4392" y="248" key="Vcs.Push.Dialog.v2/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586428818856" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1586355309661">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
@@ -280,13 +288,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs</url>
-          <line>142</line>
+          <line>147</line>
           <properties documentPath="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs" initialLine="109">
             <startOffsets>
-              <option value="4261" />
+              <option value="4430" />
             </startOffsets>
             <endOffsets>
-              <option value="4303" />
+              <option value="4472" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="8" />
