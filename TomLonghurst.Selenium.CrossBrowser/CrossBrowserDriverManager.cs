@@ -23,11 +23,33 @@ namespace TomLonghurst.Selenium.CrossBrowser
     public class CrossBrowserDriverManager
     {
         private readonly List<Func<IWebDriver>> _webDriverConstructors = new List<Func<IWebDriver>>();
-        public TextWriter Logger { get; set; } = Console.Out;
+        private TextWriter _logger = Console.Out;
+
+        public TextWriter Logger
+        {
+            get => _logger ?? Console.Out;
+            set => _logger = value;
+        }
+
         public ScreenshotSettings ScreenshotSettings { get; set; }
         public bool RunInParallel { get; set; }
-        
+
+        public CrossBrowserDriverManager()
+        {
+
+        }
+
+        public CrossBrowserDriverManager(Func<IWebDriver> webdriverConstructor)
+        {
+            AddWebDriver(webdriverConstructor);
+        }
+
         public CrossBrowserDriverManager(IEnumerable<Func<IWebDriver>> webdriverConstructors)
+        {
+            AddWebDrivers(webdriverConstructors);
+        }
+
+        public void AddWebDrivers(IEnumerable<Func<IWebDriver>> webdriverConstructors)
         {
             foreach (var webDriverConstructor in webdriverConstructors)
             {
@@ -74,7 +96,8 @@ namespace TomLonghurst.Selenium.CrossBrowser
             await LogResults(results);
         }
 
-        private Task<BrowserResult> RunJourney(Func<IWebDriver, Task> testJourney, Func<IWebDriver> webDriverConstructor)
+        private Task<BrowserResult> RunJourney(Func<IWebDriver, Task> testJourney,
+            Func<IWebDriver> webDriverConstructor)
         {
             return Task.Run(async () =>
             {
@@ -108,13 +131,13 @@ namespace TomLonghurst.Selenium.CrossBrowser
             {
                 return;
             }
-            
-            if (ScreenshotSettings?.TakeScreenshots != true || 
+
+            if (ScreenshotSettings?.TakeScreenshots != true ||
                 !(ScreenshotSettings.ResultsToTakeScreenshotsOf ?? Enumerable.Empty<Result>()).Contains(result.Result))
             {
                 return;
             }
-            
+
             foreach (var windowHandle in webDriver.WindowHandles)
             {
                 webDriver.SwitchTo().Window(windowHandle);
@@ -124,6 +147,11 @@ namespace TomLonghurst.Selenium.CrossBrowser
 
         private static void TryCloseBrowser(IWebDriver webDriver)
         {
+            if (webDriver == null)
+            {
+                return;
+            }
+
             try
             {
                 webDriver.Quit();
@@ -139,9 +167,9 @@ namespace TomLonghurst.Selenium.CrossBrowser
             foreach (var result in results.OrderBy(r => r.Result))
             {
                 var browserName = GetBrowserName(result.WebDriver);
-                
+
                 await Logger.WriteLineAsync($"\n{result.Result} on browser: {browserName}");
-                
+
                 if (result.Result == Result.Fail)
                 {
                     await WriteException(browserName, result);
@@ -156,16 +184,16 @@ namespace TomLonghurst.Selenium.CrossBrowser
         private async Task LogScreenshots(string browserName, BrowserResult result)
         {
             var imageFormat = ScreenshotSettings?.ScreenshotImageFormat ?? ScreenshotImageFormat.Png;
-            
+
             foreach (var screenshot in result.Screenshots)
             {
                 Directory.CreateDirectory(FilePaths.Screenshots);
-                
+
                 var savePath = Path.Combine(FilePaths.Screenshots,
                     $"{browserName}-{Guid.NewGuid():N}.{imageFormat.ToString().ToLowerInvariant()}");
 
                 screenshot.SaveAsFile(savePath, imageFormat);
-                
+
                 await Logger.WriteLineAsync($"\nScreenshot for browser {browserName} at path: {savePath}");
             }
         }
@@ -180,12 +208,12 @@ namespace TomLonghurst.Selenium.CrossBrowser
         private static void ThrowIfAnyExceptions(IEnumerable<BrowserResult> results)
         {
             var exceptions = results.Select(result => result.Exception).Where(exception => exception != null).ToList();
-            
+
             if (exceptions.Count == 1)
             {
                 throw exceptions.First();
             }
-            
+
             if (exceptions.Count > 1)
             {
                 throw new AggregateException(exceptions);
@@ -194,44 +222,32 @@ namespace TomLonghurst.Selenium.CrossBrowser
 
         private static string GetBrowserName(IWebDriver webDriver)
         {
-            if (webDriver is IWrapsDriver wrapsDriver)
-            {
-                return GetBrowserName(wrapsDriver.WrappedDriver);
-            }
-            
-            if (webDriver is RemoteWebDriver remoteWebDriver)
-            {
-                var capabilities = remoteWebDriver.Capabilities;
-
-                var version = "";
-                if (capabilities.HasCapability("browserVersion"))
-                {
-                    version = capabilities.GetCapability("browserVersion").ToString();
-                }
-
-                if (capabilities.HasCapability("browserName"))
-                {
-                    return $"{capabilities.GetCapability("browserName")} {version}".Trim();
-                }
-            }
-
             switch (webDriver)
             {
-                case ChromeDriver _:
-                    return "Chrome";
-                case FirefoxDriver _:
-                    return "Firefox";
-                case EdgeDriver _:
-                    return "Edge";
-                case InternetExplorerDriver _:
-                    return "Internet Explorer";
-                case SafariDriver _:
-                    return "Safari";
-                case OperaDriver _:
-                    return "Opera";
-                default:
-                    return "Unknown Browser";
+                case null:
+                    return "null";
+                case IWrapsDriver wrapsDriver:
+                    return GetBrowserName(wrapsDriver.WrappedDriver);
+                case RemoteWebDriver remoteWebDriver:
+                {
+                    var capabilities = remoteWebDriver.Capabilities;
+
+                    var version = "";
+                    if (capabilities.HasCapability("browserVersion"))
+                    {
+                        version = capabilities.GetCapability("browserVersion").ToString();
+                    }
+
+                    if (capabilities.HasCapability("browserName"))
+                    {
+                        return $"{capabilities.GetCapability("browserName")} {version}".Trim();
+                    }
+
+                    break;
+                }
             }
+
+            return "Unknown Browser";
         }
     }
 }
