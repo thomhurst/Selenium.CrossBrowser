@@ -15,6 +15,7 @@ using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Safari;
 using OpenQA.Selenium.Support.Extensions;
 using TomLonghurst.Selenium.CrossBrowser.Enums;
+using TomLonghurst.Selenium.CrossBrowser.Helpers;
 using TomLonghurst.Selenium.CrossBrowser.Models;
 
 namespace TomLonghurst.Selenium.CrossBrowser
@@ -78,10 +79,11 @@ namespace TomLonghurst.Selenium.CrossBrowser
             return Task.Run(async () =>
             {
                 BrowserResult result = null;
-                var webDriver = webDriverConstructor();
 
+                IWebDriver webDriver = null;
                 try
                 {
+                    webDriver = webDriverConstructor();
                     await testJourney(webDriver);
                     result = new BrowserResult(webDriver, Result.Pass);
                 }
@@ -152,11 +154,9 @@ namespace TomLonghurst.Selenium.CrossBrowser
             
             foreach (var screenshot in result.Screenshots)
             {
-                Directory.CreateDirectory(Path.Combine(Directory.GetCurrentDirectory(),
-                    "CrossBrowserScreenshots"));
+                Directory.CreateDirectory(FilePaths.Screenshots);
                 
-                var savePath = Path.Combine(Directory.GetCurrentDirectory(),
-                    "CrossBrowserScreenshots",
+                var savePath = Path.Combine(FilePaths.Screenshots,
                     $"{browserName}-{Guid.NewGuid():N}.{imageFormat.ToString().ToLowerInvariant()}");
 
                 screenshot.SaveAsFile(savePath, imageFormat);
