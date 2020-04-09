@@ -25,9 +25,8 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d8258b3-6543-434d-9e00-d2ae3a4429f3" name="Default Changelist" comment="Tidy structure">
+    <list default="true" id="7d8258b3-6543-434d-9e00-d2ae3a4429f3" name="Default Changelist" comment="Different method of accessing output directory">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.Selenium.CrossBrowser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.Selenium.CrossBrowser/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +37,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/Helpers/FilePaths.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/DB9CEB1E-F6C3-448D-8D4A-C9F8963779FB/168/Future.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/BrowserResult.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/Models/ScreenshotSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser.Tests/Tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DB9CEB1E-F6C3-448D-8D4A-C9F8963779FB/de/02078634/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser.Tests/obj/Debug/netcoreapp3.1/TomLonghurst.Selenium.CrossBrowser.Tests.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFA06CC1-3021-4FAA-A49F-A6D0D4259ABD/10/d2ba08c3/ChromeDriver.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/Enums/Result.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -59,6 +60,7 @@
         <option value="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser.Tests/Tests.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/ScreenshotSettings.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/Models/ScreenshotSettings.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/Helpers/FilePaths.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs" />
       </list>
     </option>
@@ -96,6 +98,7 @@
       <updated>1586348908081</updated>
       <workItem from="1586348911620" duration="10584000" />
       <workItem from="1586360100854" duration="5452000" />
+      <workItem from="1586424211090" duration="1455000" />
     </task>
     <task id="LOCAL-00001" summary="NuGet build package script">
       <created>1586360416610</created>
@@ -125,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586369791872</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Different method of accessing output directory">
+      <created>1586424340941</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586424340941</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +148,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -149,7 +161,8 @@
     <MESSAGE value="ScreenshotSettings" />
     <MESSAGE value="ScreenshotImageFormat" />
     <MESSAGE value="Tidy structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tidy structure" />
+    <MESSAGE value="Different method of accessing output directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Different method of accessing output directory" />
   </component>
   <component name="WindowStateProjectService">
     <state width="904" height="646" key="DebuggerActiveHint" timestamp="1586355309663">
@@ -240,10 +253,10 @@
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
     <state x="4392" y="251" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586353501059" />
-    <state x="4392" y="248" key="Vcs.Push.Dialog.v2" timestamp="1586369802944">
+    <state x="4392" y="248" key="Vcs.Push.Dialog.v2" timestamp="1586424342579">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="4392" y="248" key="Vcs.Push.Dialog.v2/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586369802944" />
+    <state x="4392" y="248" key="Vcs.Push.Dialog.v2/0.0.2560.1400/3840.0.1920.1040@3840.0.1920.1040" timestamp="1586424342579" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1586355309661">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
@@ -258,13 +271,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs</url>
-          <line>113</line>
+          <line>114</line>
           <properties documentPath="$PROJECT_DIR$/TomLonghurst.Selenium.CrossBrowser/CrossBrowserDriverManager.cs" initialLine="109">
             <startOffsets>
-              <option value="3638" />
+              <option value="3688" />
             </startOffsets>
             <endOffsets>
-              <option value="3680" />
+              <option value="3730" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="8" />

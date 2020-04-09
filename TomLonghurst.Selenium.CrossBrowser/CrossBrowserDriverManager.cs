@@ -104,6 +104,11 @@ namespace TomLonghurst.Selenium.CrossBrowser
 
         private void CaptureScreenshots(IWebDriver webDriver, ref BrowserResult result)
         {
+            if (webDriver == null)
+            {
+                return;
+            }
+            
             if (ScreenshotSettings?.TakeScreenshots != true || 
                 !(ScreenshotSettings.ResultsToTakeScreenshotsOf ?? Enumerable.Empty<Result>()).Contains(result.Result))
             {
